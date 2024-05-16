@@ -1,0 +1,45 @@
+.text{
+    background-color: rgba(122, 135, 255, 0.356);
+    text-align: center;
+    padding: 2%;
+    font-size: 20px;
+    border: solid;
+    font-size: 24px;
+    color: #fff; /* Text color */
+    text-shadow: 0 0 10px rgba(0, 0, 255, 0.39), 0 0 20px #0ff, 0 0 30px rgba(0, 255, 0, 0.466), 0 0 40px rgba(255, 255, 0, 0.425), 0 0 50px #f00;
+    transition: text-shadow 0.5s ease-in-out; 
+}
+body{
+    padding: 6%;
+    background: url(background.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    image-resolution: 4000dpi;
+}
+
+button {
+    display: block; 
+    margin: 0 auto; 
+}
+.container {
+    display: flex; 
+    justify-content: center;
+}
+
+button {
+  font-size: 20px;
+  font-style: italic;
+  padding: 10px;
+}
+.icon-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+}
+
+.button-image {
+    width: 50px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+}
